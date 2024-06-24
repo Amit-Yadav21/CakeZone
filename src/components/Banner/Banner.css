@@ -6,28 +6,26 @@
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }
-.font-size{
+.font-size-cakezone{
     font-size: 4rem;
     font-family: 'Oswald', sans-serif;
 }
-.headings-font-family{
+.headings-font-family-banner{
     font-family: 'Pacifico', cursive;
     color: #FFA500;
 }
-.bg-color{
+
+.btn-bg-color-banner{
     background-color: #FFA500;
 }
-.btn-bg-color{
-    background-color: #FFA500;
-}
-.icon-color{
+.play-icon-color{
     padding: 20px;
     border-width: 12px; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.icon-color i{
+.play-icon-color i{
     color: #FFA500;
     font-size: 16px;
 }

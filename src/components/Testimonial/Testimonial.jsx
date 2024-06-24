@@ -35,7 +35,7 @@ const testimonials = [
 function Testimonial() {
     return (
         <div className="container my-5">
-            <h2 className="text-center text-warning  headings-font-family">Testimonial</h2>
+            <h2 className="text-center testimonal-faimily">Testimonial</h2>
             <h1 className="text-center">OUR CLIENTS SAY!!!</h1>
             <div className='mb-4 d-flex align-items-center justify-content-center'>
                 <HorizontalLine />
@@ -45,9 +45,9 @@ function Testimonial() {
                     <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
                         <div className={`card testimonial-card ${testimonial.active ? 'active' : 'inactive'}`}>
                             <div className='d-flex'>
-                                <img src={testimonial.image} alt={testimonial.name} className="card-img-top" />
+                                <img src={testimonial.image} alt={testimonial.name} className="testimonial-card-img-top" />
                                 <div className="card-body">
-                                    <h5 className={`card-title title-name ${testimonial.active ? '' : 'text-muted'}`}>{testimonial.name}</h5>
+                                    <h5 className={`testimonial-card-title testimonial-title-name ${testimonial.active ? '' : 'text-muted'}`}>{testimonial.name}</h5>
                                     <p className={`card-text ${testimonial.active ? '' : 'text-muted'}`}>{testimonial.profession}</p>
                                 </div>
                             </div>

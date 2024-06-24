@@ -28,20 +28,20 @@
 .super_h1{
     color: #FFA500;
 }
-.btn-bg-color{
+.shop-bg-color{
     background-color: #FFA500;
 }
 .read-bg-color{
     background-color: rgb(27, 27, 27);
 }
-.font-faimily{
+.font-faimily-super{
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }
-.headings-font-family{
+.font-family-h2{
     font-family: 'Pacifico', cursive;
     color: #FFA500;
 }
-.font-faimily-1{
+.font-faimily-super-p{
     font-family: 'Open Sans', sans-serif;
 }

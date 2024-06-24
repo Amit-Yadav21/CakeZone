@@ -10,7 +10,7 @@ function NavBar() {
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active text-white fw-bold" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active fw-bold" aria-current="page" href="#" style={{color:'orange'}}>Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white fw-bold" href="#">ABOUT US</a>

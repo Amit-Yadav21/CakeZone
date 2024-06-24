@@ -1,3 +1,8 @@
+.testimonal-faimily{
+    font-family: 'Pacifico', cursive;
+    color: #FFA500;
+}
+
 .testimonial-card {
     border: 1px solid #ccc;
     padding: 20px;
@@ -13,12 +18,12 @@
     color: #ccc;
 }
 
-.card-img-top {
+.testimonial-card-img-top {
     width: 80px;
     height: 80px;
     object-fit: cover;
 }
-.title-name{
+.testimonial-title-name{
     color: #FFA500;
 }
 .graph-icon{

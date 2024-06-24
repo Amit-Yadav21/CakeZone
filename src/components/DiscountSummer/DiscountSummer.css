@@ -1,0 +1,32 @@
+/* .DiscounrCard {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.DiscounrCard-title {
+    font-weight: bold;
+}
+
+.DiscounrCard-body {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.discount-section {
+    background-color: #333;
+    color: #fff;
+} */
+
+#Discount-bg-image{
+    background-image: url('/src/assets/bg.jpg');
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

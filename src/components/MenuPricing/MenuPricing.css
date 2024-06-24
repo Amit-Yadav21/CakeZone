@@ -1,0 +1,33 @@
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-left {
+    width: 150px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.card-price {
+    min-width: 100px;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+}
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #FFF;
+}
+
+.font-family-menu-price {
+    font-family: 'Pacifico', cursive; 
+    color: #FFA500;
+}
