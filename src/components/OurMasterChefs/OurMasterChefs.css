@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;600;700&family=Pacifico&display=swap');
+.bg-color{
+    background-color: rgba(28, 28, 29, 0.839);
+}
+.fullname-color{
+    color: #FFA500;
+}
+h1{
+    font-weight: bolder;
+}
+.font-faimily{
+    font-family: 'Oswald', sans-serif;
+}
+.headings-font-family{
+    font-family: 'Pacifico', cursive;
+    color: #FFA500;
+}
