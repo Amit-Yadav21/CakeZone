@@ -1,0 +1,29 @@
+.testimonial-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.testimonial-card.active {
+    /* border: 2px solid #333; */
+    background-color: #333;
+    color: white;
+}
+
+.testimonial-card.inactive {
+    color: #ccc;
+}
+
+.card-img-top {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.title-name{
+    color: #FFA500;
+}
+.graph-icon{
+    color: #FFA500;
+}
+.graph-icon i{
+    font-size: 2rem;
+}

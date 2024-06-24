@@ -6,7 +6,7 @@ function SuperCrispyCakes() {
     return (
         <>
             <div className="col-lg-6 col-md-8 mx-auto text-center container-fuild" id='Super-bg-image'>
-                <h2 className="fw-light super_h1 headings-font-family z-2">Special Kombo Pack</h2>
+                <h2 className="fw-light super_h1 font-weight-bold headings-font-family z-2">Special Kombo Pack</h2>
                 <h1 className='text-white font-faimily z-2'>SUPER CRISPY CAKES</h1>
                 <div className='mb-4 d-flex align-items-center justify-content-center z-2 w-100'>
                     <HorizontalLine />
