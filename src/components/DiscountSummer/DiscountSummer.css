@@ -24,9 +24,21 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 30vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.DiscountCard-bg-color{
+    background-color: #FFA500;
+}
+.DiscountCard-bg-color a {
+    text-decoration: none;
+}
+.font-faimily-discount{
+    font-family: 'Oswald', sans-serif;
+}
+.btn-order-bg-color-banner{
+    background-color: #FFA500;
 }

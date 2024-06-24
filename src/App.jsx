@@ -12,6 +12,7 @@ import DiscountSummer from './components/DiscountSummer/DiscountSummer';
 import OurMasterChafes from './components/OurMasterChefs/OurMasterChefs'
 import SuperCrispyCakes from './components/SuperCrispyCakes/SuperCrispyCakes'
 import Testimonial from './components/Testimonial/Testimonial'
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <OurMasterChafes />
       <SuperCrispyCakes />
       <Testimonial/>
+      <Footer/>
     </>
   );
 }

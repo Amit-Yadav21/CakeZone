@@ -1,0 +1,52 @@
+.main-container {
+    background-color: #FFA500;
+    height: 30%;
+    width: 23rem;
+}
+
+.div-container {
+    border: 1px solid white;
+}
+
+.h1-tag {
+    font-family: 600;
+}
+
+i {
+    color: rgba(255, 166, 0, 0.839);
+}
+
+.icon-box {
+    background-color: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-icon {
+    height: 3rem;
+    width: 3rem;
+
+}
+
+#footer-icon i {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+
+input {
+    height: 3rem;
+    width: 80%;
+}
+
+button {
+    height: 3rem;
+    width: 40%;
+}
+
+footer {
+    height: 16rem;
+}

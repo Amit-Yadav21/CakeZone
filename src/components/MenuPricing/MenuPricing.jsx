@@ -61,17 +61,19 @@ function MenuPricing() {
                 {cakes.map((cake, index) => (
                     <div key={index} className="col-lg-6 col-md-12 mb-4 d-flex">
                         <div className="card flex-row w-100">
-                            <img src={cake.image} alt={cake.name} className="card-img-left" />
+                            <div>
+                                <img src={cake.image} alt={cake.name} className="card-img-left" />
+                                <div className="card-price text-center align-self-center px-3 bg-black">
+                                    <h4 className="text-warning font-weight-bold">{cake.price}</h4>
+                                </div>
+                            </div>
                             <div className="card-body">
                                 <h5 className="card-title">{cake.name}</h5>
                                 <p className="card-text">{cake.description}</p>
                             </div>
-                            <div className="card-price text-center align-self-center px-3 bg-black">
-                                <h4 className="text-warning font-weight-bold">{cake.price}</h4>
-                            </div>
                         </div>
                     </div>
-                ))} 
+                ))}
             </div>
         </div>
     );
