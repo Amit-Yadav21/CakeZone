@@ -48,7 +48,7 @@ function Footer() {
                         <p className='text-white'>Amet justo diam dolor lorem sit stet see justo kasd</p>
                         <div class='d-flex justify-content-center input-box'>
                             <input type="text" placeholder='Your Email' />
-                            <button type="button" className="btn btn-warning">Sign Up</button>
+                            <button type="button" className="btn btn-warning" style={{width:'150px'}}>Sign Up</button>
                         </div>
                     </div>
                 </div>

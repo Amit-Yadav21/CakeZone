@@ -4,8 +4,11 @@ function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <i className="fas fa-cake-candles fa-3x" style={{ color :'#FFA500', marginRight:'5px'}}></i>
-                <a className="navbar-brand text-white fw-bold mr-2" href="#">CAKEZONE</a>
+                {/* Visible only on small screens */}
+                <div className="d-lg-none">
+                    <i className="fas fa-cake-candles fa-3x" style={{ color: '#FFA500', marginRight: '5px' }}></i>
+                    <a className="navbar-brand text-white fw-bold mr-2" href="#">CAKEZONE</a>
+                </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

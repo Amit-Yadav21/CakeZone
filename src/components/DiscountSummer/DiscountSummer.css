@@ -15,6 +15,7 @@
 
 .discount-card-bg-color {
     background-color: #FFA500;
+    border-radius: 10px;
 }
 
 .discount-card-bg-color a {

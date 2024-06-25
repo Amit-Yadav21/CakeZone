@@ -11,7 +11,7 @@ function Number() {
     ];
 
     return (
-        <div className="container-fluid py-5 number-bg-image">
+        <div className="container-fluid py-5 number-bg-image" style={{display:'flex',justifyContent:'space-around'}}>
             <div className="row g-4 row-cols-1 row-cols-lg-4 container ">
                 {data.map((item, index) => (
                     <div className="col d-flex align-items-start" key={index}>

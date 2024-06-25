@@ -68,9 +68,9 @@ function MenuPricing() {
                                     <h4 className="text-warning font-weight-bold">{cake.price}</h4>
                                 </div>
                             </div>
-                            <div className="card-body text-md-left">
+                            <div className="card-body text-md-left" style={{backgroundColor:'#FFFAF0'}}>
                                 <h5 className="card-title">{cake.name}</h5>
-                                <p className="card-text">{cake.description}</p>
+                                <p className="card-text" style={{color:'gray'}}>{cake.description}</p>
                             </div>
                         </div>
                     </div>
