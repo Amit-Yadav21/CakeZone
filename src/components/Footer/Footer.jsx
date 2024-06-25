@@ -3,15 +3,18 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <footer class="container-fuild py-5 border-top bg-dark ">
+        <footer class="container-fuild border-top bg-dark ">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer-contaoner">
                 <div class="col mb-4 d-flex main-container">
-                    <div class=" btn-bg-color-banner container">
-                        <div class='d-flex justify-content-center align-items-center mb-3 mt-3'>
-                            <i class="fa-solid fa-cake-candles" style={{ fontSize: '2rem' }}></i>
-                            <h3 className='text-white ms-2 mb-0'>CAKEZONE</h3>
+                    <div className='border'>
+                        <div class=" btn-bg-color-banner container">
+                            <div class='d-flex justify-content-center align-items-center mb-3 mt-3'>
+                                <i class="fa-solid fa-cake-candles" style={{ fontSize: '2rem' }}></i>
+                                <h3 className='text-white ms-2 mb-0'>CAKEZONE</h3>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam voluptas explicabo molestiae sit dicta alias expedita eveniet laudantium, saepe dolore atque vitae. Animi iure nemo cupiditate nihil odio laudantium aspernatur.</p>
                         </div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam voluptas explicabo molestiae sit dicta alias expedita eveniet laudantium, saepe dolore atque vitae. Animi iure nemo cupiditate nihil odio laudantium aspernatur.</p>
+
                     </div>
                 </div>
 
@@ -48,11 +51,12 @@ function Footer() {
                         <p className='text-white'>Amet justo diam dolor lorem sit stet see justo kasd</p>
                         <div class='d-flex justify-content-center input-box'>
                             <input type="text" placeholder='Your Email' />
-                            <button type="button" className="btn btn-warning" style={{width:'150px'}}>Sign Up</button>
+                            <button type="button" className="btn btn-warning" style={{ width: '150px' }}>Sign Up</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>  
+            <div className='text-white text-center bg-black p-4 font-family-footer'>© CAKEZONE. All Rights Reserved. Designed by Amit Yadav</div>
         </footer>
     )
 }
