@@ -51,7 +51,7 @@ function MenuPricing() {
                 <HorizontalLine />
             </div>
             <div className="text-center mb-4 p-3">
-                <div className="btn-group btn-group-toggle border btn-dark p-3 d-flex flex-wrap justify-content-center" role="group">
+                <div className="btn-group btn-dark p-3 d-flex flex-wrap justify-content-center" role="group">
                     <button type="button" className="btn btn-warning text-white m-1">BIRTHDAY</button>
                     <button type="button" className="btn btn-secondary text-white m-1">WEDDING</button>
                     <button type="button" className="btn btn-secondary text-white m-1">CUSTOM</button>

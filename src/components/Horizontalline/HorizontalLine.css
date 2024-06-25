@@ -18,3 +18,9 @@
     height: 10px;
     background-color: orange;
 }
+
+@media (max-width: 768px) {
+    .horizontal-line{
+        width: 50%;
+    }
+}
