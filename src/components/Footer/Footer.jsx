@@ -7,7 +7,7 @@ function Footer() {
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer-contaoner">
                 <div class="col mb-4 d-flex main-container">
                     <div class=" btn-bg-color-banner container">
-                        <div class='d-flex justify-content-center align-items-center mb-3'>
+                        <div class='d-flex justify-content-center align-items-center mb-3 mt-3'>
                             <i class="fa-solid fa-cake-candles" style={{ fontSize: '2rem' }}></i>
                             <h3 className='text-white ms-2 mb-0'>CAKEZONE</h3>
                         </div>
