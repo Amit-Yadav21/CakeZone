@@ -12,7 +12,7 @@ function Number() {
 
     return (
         <div className="container-fluid py-5 number-bg-image">
-            <div className="row g-5 row-cols-1 row-cols-lg-4 container">
+            <div className="row g-4 row-cols-1 row-cols-lg-4 container ">
                 {data.map((item, index) => (
                     <div className="col d-flex align-items-start" key={index}>
                         <div className='d-flex align-items-center justify-content-center icon-main-div'>
@@ -21,8 +21,8 @@ function Number() {
                             </div>
                         </div>
                         <div className="ms-2">
-                            <h3 className="fs-6 title-color-number">{item.title}</h3>
-                            <p className="fs-4 value-text-number">{item.value}</p>
+                            <h3 className="fs-6 title-color-number font-family-number">{item.title}</h3>
+                            <p className="value-text-number">{item.value}</p>
                         </div>
                     </div>
                 ))}

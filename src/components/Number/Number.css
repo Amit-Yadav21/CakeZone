@@ -23,7 +23,12 @@
 }
 
 .value-text-number {
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+.font-family-number {
+    font-family: 'Oswald', sans-serif;
 }
 
 @media (max-width: 576px) {

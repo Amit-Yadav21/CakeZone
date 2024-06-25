@@ -67,6 +67,9 @@
     align-items: center;
     justify-content:center;
 }
+.NEWSLETTER-MARGIN{
+    margin-bottom: 6rem;
+}
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {

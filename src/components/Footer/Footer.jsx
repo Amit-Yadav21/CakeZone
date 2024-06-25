@@ -15,12 +15,12 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="col mb-2">
-                    <h5 className="icon-color-footer">Get In Touch</h5>
+                <div className="col mb-5">
+                    <h5 className="icon-color-footer">GET IN TOUCH</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2"><i className="fa-solid fa-location-dot icon icon-color-footer"></i><span className="ms-2 text-white">123 Street, New York, USA</span></li>
                         <li className="nav-item mb-2"><i className="fa-regular fa-envelope-open icon icon-color-footer"></i><a href="#" className="text-white"><span className="ms-2">info@consult.com</span></a></li>
-                        <li className="nav-item mb-2"><i className="fa-solid fa-phone icon icon-color-footer"></i><span className="ms-2 text-white">+013278529</span></li>
+                        <li className="nav-item mb-2"><i className="fa-solid fa-phone icon icon-color-footer"></i><span className="ms-2 text-white">+012 345 67890</span></li>
                     </ul>
                     <div className="d-flex ">
                         <div className="me-2 text-white icon-box" id="footer-icon"><i className="fab fa-twitter"></i></div>
@@ -30,21 +30,22 @@ function Footer() {
 
                 </div>
 
-                <div className="col mb-3 p-3">
-                    <h5 className="icon-color-footer">Quick Links</h5>
+                <div className="col mb-3">
+                    <h5 className="icon-color-footer">QUICK LINKS</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Home</li>
                         <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>About Us</li>
                         <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Our Services</li>
-                        <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Latest Blog Post</li>
+                        <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Meet The Team</li>
+                        <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Latest Blog</li>
                         <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Contact Us</li>
                     </ul>
                 </div>
 
-                <div class="col mb-4">
-                    <div>
-                        <h4 className='icon-color-footer'>Newsletter</h4>
-                        <p className='text-white'>Lorem ipsum dolor sit ipsum dolor sit .</p>
+                <div class="col NEWSLETTER-MARGIN">
+                    <div >
+                        <h4 className='icon-color-footer'>NEWSLETTER</h4>
+                        <p className='text-white'>Amet justo diam dolor lorem sit stet see justo kasd</p>
                         <div class='d-flex justify-content-center input-box'>
                             <input type="text" placeholder='Your Email' />
                             <button type="button" className="btn btn-warning">Sign Up</button>
