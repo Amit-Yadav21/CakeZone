@@ -4,9 +4,9 @@ import HorizontalLine from '/src/components/Horizontalline/HorizontalLine'
 
 
 // Importing images directly
-import img1 from '../../assets/testimonial-1.jpg';
-import img2 from '../../assets/testimonial-2.jpg';
-import img3 from '../../assets/testimonial-3.jpg';
+import img1 from '../../assets/testimonial-2.jpg';
+import img2 from '../../assets/testimonial-3.jpg';
+import img3 from '../../assets/testimonial-4.jpg';
 
 const testimonials = [
     {

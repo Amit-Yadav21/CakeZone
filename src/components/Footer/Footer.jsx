@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <footer class="container-fuild py-5 my-5 border-top bg-dark ">
+        <footer class="container-fuild py-5 border-top bg-dark ">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer-contaoner">
                 <div class="col mb-4 d-flex main-container">
                     <div class=" btn-bg-color-banner container">
