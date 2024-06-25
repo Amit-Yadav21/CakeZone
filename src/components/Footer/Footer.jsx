@@ -3,10 +3,10 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <footer class="container py-5 my-5 border-top bg-dark ">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
-                <div class="col mb-4 d-flex main-container" style={{ marginLeft: '2rem' }}>
-                    <div class="p-1 btn-bg-color-banner container">
+        <footer class="container-fuild py-5 my-5 border-top bg-dark ">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 footer-contaoner">
+                <div class="col mb-4 d-flex main-container">
+                    <div class=" btn-bg-color-banner container">
                         <div class='d-flex justify-content-center align-items-center mb-3'>
                             <i class="fa-solid fa-cake-candles" style={{ fontSize: '2rem' }}></i>
                             <h3 className='text-white ms-2 mb-0'>CAKEZONE</h3>
@@ -15,7 +15,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="col mb-3 " style={{ marginLeft: '3rem' }}>
+                <div className="col mb-2">
                     <h5 className="icon-color-footer">Get In Touch</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2"><i className="fa-solid fa-location-dot icon icon-color-footer"></i><span className="ms-2 text-white">123 Street, New York, USA</span></li>
@@ -30,7 +30,7 @@ function Footer() {
 
                 </div>
 
-                <div className="col mb-3">
+                <div className="col mb-3 p-3">
                     <h5 className="icon-color-footer">Quick Links</h5>
                     <ul className="nav flex-column">
                         <li className="nav-item mb-2 text-white"><i className="fa-solid fa-arrow-right me-2 icon icon-color-footer"></i>Home</li>
@@ -47,7 +47,7 @@ function Footer() {
                         <p className='text-white'>Lorem ipsum dolor sit ipsum dolor sit .</p>
                         <div class='d-flex justify-content-center input-box'>
                             <input type="text" placeholder='Your Email' />
-                            <button type="button" class="btn btn-warning " style={{ borderRadius: '0px' }}>Sign Up</button>
+                            <button type="button" className="btn btn-warning">Sign Up</button>
                         </div>
                     </div>
                 </div>

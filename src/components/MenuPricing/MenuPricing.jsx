@@ -51,12 +51,13 @@ function MenuPricing() {
                 <HorizontalLine />
             </div>
             <div className="text-center mb-4 p-3">
-                <div className="btn-group border btn-dark p-3" role="group">
-                    <button type="button" className="btn btn-warning text-white">BIRTHDAY</button>
-                    <button type="button" className="btn text-white">WEDDING</button>
-                    <button type="button" className="btn text-white">CUSTOM</button>
+                <div className="btn-group btn-group-toggle border btn-dark p-3 d-flex flex-wrap justify-content-center" role="group">
+                    <button type="button" className="btn btn-warning text-white m-1">BIRTHDAY</button>
+                    <button type="button" className="btn btn-secondary text-white m-1">WEDDING</button>
+                    <button type="button" className="btn btn-secondary text-white m-1">CUSTOM</button>
                 </div>
             </div>
+
             <div className="row">
                 {cakes.map((cake, index) => (
                     <div key={index} className="col-lg-6 col-md-12 mb-4 d-flex">
