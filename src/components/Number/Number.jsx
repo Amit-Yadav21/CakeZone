@@ -11,18 +11,18 @@ function Number() {
     ];
 
     return (
-        <div className="container-fluid py-5" id="Number-bg-image">
-            <div className="row g-5 row-cols-1 row-cols-lg-4 text-white container">
+        <div className="container-fluid py-5 number-bg-image">
+            <div className="row g-5 row-cols-1 row-cols-lg-4 container">
                 {data.map((item, index) => (
                     <div className="col d-flex align-items-start" key={index}>
-                        <div className='d-flex align-items-center justify-content-center' id='icon-main-div'>
-                            <div className='border' id='icon-div'>
-                                <i className={`${item.icon} fa-2x text-white p-1`}></i>
+                        <div className='d-flex align-items-center justify-content-center icon-main-div'>
+                            <div className='border icon--uper-div'>
+                                <i className={`${item.icon} fa-2x text-white`}></i>
                             </div>
                         </div>
                         <div className="ms-2">
-                            <h3 className="fs-6" id='title-color'>{item.title}</h3>
-                            <p className="fs-4 value-text">{item.value}</p>
+                            <h3 className="fs-6 title-color-number">{item.title}</h3>
+                            <p className="fs-4 value-text-number">{item.value}</p>
                         </div>
                     </div>
                 ))}

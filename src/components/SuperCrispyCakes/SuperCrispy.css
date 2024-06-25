@@ -1,19 +1,21 @@
-#Super-bg-image {
+.super-bg-image {
     background-image: url('/src/assets/offer.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh; /* Full height, adjust as needed */
+    height: 60vh; /* Adjust height as needed */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
-    /* color: rgb(8, 8, 8); */
+    color: white; /* Ensuring text color is appropriate */
+    padding: 3rem 1rem; /* Padding adjustment */
 }
-#Super-bg-image::before {
+
+.super-bg-image::before {
     content: "";
     position: absolute;
     top: 0;
@@ -25,23 +27,40 @@
     pointer-events: none;
 }
 
-.super_h1{
+.super_h1 {
     color: #FFA500;
 }
-.shop-bg-color{
+
+.shop-bg-color {
     background-color: #FFA500;
 }
-.read-bg-color{
+
+.read-bg-color {
     background-color: rgb(27, 27, 27);
 }
-.font-faimily-super{
+
+.font-family-super {
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
 }
-.font-family-h2{
+
+.font-family-h2 {
     font-family: 'Pacifico', cursive;
     color: #FFA500;
 }
-.font-faimily-super-p{
+
+.font-family-super-p {
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .super-bg-image {
+        height: auto; /* Allow height to adjust based on content */
+        min-height: 50vh; /* Minimum height to ensure content visibility */
+        padding: 2rem 1rem; /* Adjusted padding for smaller screens */
+    }
+
+    .font-family-super {
+        font-size: 1.5rem; /* Decrease font size for better mobile readability */
+    }
 }

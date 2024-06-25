@@ -1,44 +1,48 @@
-/* .DiscounrCard {
-    background-color: #FFA500;
-    color: #fff;
-}
-
-.DiscounrCard-title {
-    font-weight: bold;
-}
-
-.DiscounrCard-body {
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-}
-
-.discount-section {
-    background-color: #333;
-    color: #fff;
-} */
-
-#Discount-bg-image{
+.discount-bg-image {
     background-image: url('/src/assets/bg.jpg');
-    background-size: cover;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 60vh;
+    height: auto;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 3rem 1rem;
 }
-.DiscountCard-bg-color{
+
+.discount-card-bg-color {
     background-color: #FFA500;
 }
-.DiscountCard-bg-color a {
+
+.discount-card-bg-color a {
     text-decoration: none;
 }
-.font-faimily-discount{
+
+.font-family-discount {
     font-family: 'Oswald', sans-serif;
 }
-.btn-order-bg-color-banner{
+
+.btn-order-bg-color-banner {
     background-color: #FFA500;
+}
+
+@media (max-width: 576px) {
+    .discount-bg-image {
+        padding: 2rem 1rem;
+    }
+
+    .discount-card-bg-color {
+        margin-bottom: 1rem;
+    }
+
+    .font-family-discount {
+        font-size: 1.5rem;
+    }
+
+    .btn-order-bg-color-banner button {
+        font-size: 1rem;
+    }
 }

@@ -1,29 +1,42 @@
-#Number-bg-image{
-    background-image: url('/src/assets/bg.jpg');
-    background-size: cover;
+.number-bg-image {
+    background-image: url('../../assets/bg.jpg');
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 30vh; /* Full height, adjust as needed */
+    padding: 3rem 1rem;
+    color: white;
+}
+
+.icon-main-div {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-#icon-main-div{
-    width: 60px;
-    height: 50px;
-    margin: 0 auto;
+    justify-content: center;
     background-color: #FFA500;
 }
-#icon-div{
-    background-color: #FFA500;
+
+.icon--uper-div {
+    padding: 4px;
+    border: 2px solid white;
 }
-#title-color{
+
+.title-color-number {
     color: #FFA500;
-    font-family: 'Oswald', sans-serif;
 }
-.value-text {
-    font-size: 2rem; 
-    font-weight: bolder; 
+
+.value-text-number {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    .number-bg-image {
+        padding: 2rem 1rem;
+        background-position: center;
+    }
+
+    .icon--uper-div {
+        padding: 8px;
+    }
+
+    .value-text-number {
+        font-size: 1.25rem;
+    }
 }

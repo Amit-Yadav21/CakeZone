@@ -1,52 +1,86 @@
+/* General styles */
+.footer {
+    background-color: #343a40; 
+    color: white; 
+    padding: 2rem 1rem; 
+}
+
+/* Styles for each column */
+.col {
+    margin-bottom: 2rem; 
+}
+.icon-color-footer{
+    color: #FFA500;
+}
+
+/* Styles for the main container with background color */
 .main-container {
     background-color: #FFA500;
-    height: 30%;
-    width: 23rem;
-}
-
-.div-container {
+    padding: 1.5rem; 
     border: 1px solid white;
+    border-radius: 5px; 
 }
 
-.h1-tag {
-    font-family: 600;
+.main-container h1 {
+    font-weight: 600; 
 }
 
-i {
-    color: rgba(255, 166, 0, 0.839);
-}
-
+/* Icon box styles */
 .icon-box {
     background-color: #FFA500;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#footer-icon {
     height: 3rem;
     width: 3rem;
-
+    /* border-radius: 50%;  */
 }
 
-#footer-icon i {
+.icon-box i {
     color: white;
-    font-size: 25px;
-    border: 1px solid white;
+    font-size: 1.5rem; 
     padding: 5px;
+    border: 1px solid white;
 }
 
+/* Input and button styles */
+.input-box {
+    margin-top: 1rem; 
+    display: flex;
+    align-items: center;
+}
 
-input {
+.input-box input {
     height: 3rem;
-    width: 80%;
+    width: 70%; 
+    margin-right: 0.5rem; 
 }
 
-button {
+.input-box button {
     height: 3rem;
-    width: 40%;
+    width: 30%; 
+    border-radius: 0; 
 }
 
-footer {
-    height: 16rem;
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem; 
+    }
+
+    .col {
+        margin-bottom: 1rem; 
+    }
+
+    .main-container {
+        width: auto; 
+    }
+
+    .input-box input {
+        width: 60%; 
+    }
+
+    .input-box button {
+        width: 40%; 
+    }
 }
